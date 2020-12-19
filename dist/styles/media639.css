@@ -1,0 +1,375 @@
+@media (max-width: 768px) {
+	.l_grid_table {
+		display: none;
+	}
+
+	.l_evolution .l_title {
+		font-size: 32px;
+		line-height: 1.2;
+	}
+	.l_grid_table_mobile {
+		display: grid;
+		grid-gap: 15px;
+		max-width: 100%;
+		margin-bottom: 50px;
+		grid-template-areas:
+			"prosv prosv prosv romantic romantic"
+			"utsotc dotchfil dotchfil dotchfil lifefil"
+			"marx  gegel gegel anarh anarh"
+			"marx  fabian fabian revision revision"
+			"marx  . evolut  evolut evolut"
+			"oldleft . existents teologic teologic"
+			"avtMarx . evangelizm  psiho psiho"
+			"neomarx neomarx neomarx neomarx neomarx"
+			"newleft newleft . postfil postfil"
+			"postmodern postmodern postmodern postmodern postmodern";
+	}
+.evolution_title {}
+	.l_grid_btn > span  {
+		z-index: -1;
+	}
+	.l_grid_btn {
+		position: relative;
+		z-index: 1;
+		margin-bottom: 15px;
+		min-height: 55px;
+		height: 100%;
+		flex-basis: 100%;
+		width: 100%;
+		line-height: 1;
+		font-size: 14px;
+	}
+	.arrow_bottom_1 {
+		left: 40px;
+	}
+	.arrow_bottom_2 {
+		right: 40px;
+	}
+	.arrow_around_1 {
+		width: 32%;
+		height: 128px;
+		right: 80%;
+	}
+	.arrow_around_2 {
+		width: 59%;
+		height: 378px;
+		right: 59%;
+		z-index: 0;
+		border-bottom: none;
+	}
+	.arrow_around_4 {
+		width: 48%;
+		height: 173px;
+	}
+	.arrow_around_3 {
+		width: calc(100vw - 49px - 80%);
+		height: 215px;
+		background: transparent;
+		border: 1px solid #36373c;
+		border-left: none;
+		border-bottom: none;
+	}
+	.arrow_around_4:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border: 6px solid  #36373c;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		position: absolute;
+		bottom: -6px;
+		right: -6px
+	}
+	.arrow_around_8 {
+		position: absolute;
+		top: 35px;
+		left: -9px;
+		width: 9px;
+		height: 172px;
+		border: 1px solid #36373c;
+		border-right-color:  transparent;
+	}
+	.arrow_around_8:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border: 6px solid  #36373c;
+		border-bottom-color: transparent;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		position: absolute;
+		bottom: -6px;
+		right: -7px
+	}
+	.arrow_around_9 {
+		position: absolute;
+		top: 206px;
+		right: -16px;
+		width: 17px;
+		height: 85px;
+		border: 1px solid #36373c;
+		border-left-color: transparent;
+		border-bottom-color: transparent;
+	}
+	#ev_16 .arrow_right {
+		left: initial;
+		right: 100%;
+	}
+	#ev_14 .arrow_top {
+		top: initial;
+		bottom: 100%;
+	}
+	#ev_19 .arrow_top {
+		top: initial;
+		bottom: 100%;
+		right: initial;
+		left: 40px;
+	}
+	#ev_19 .arrow_bottom_long {
+		bottom: initial;
+		top: 100%;
+		height: 100px;
+		left: 48%;
+	}
+	#ev_19 .arrow_left {
+		right: initial;
+		left: 100%;
+		width: 8px;
+	}
+	#ev_3 .arrow_right,
+	#ev_7 .arrow_right {
+		left: initial;
+		right: 100%;
+	}
+	#ev_1 {
+		grid-area: prosv;
+	}
+
+	#ev_2 {
+		grid-area: romantic;
+	}
+
+	#ev_3 {
+		grid-area: postmodern;
+	}
+
+	#ev_4 {
+		grid-area: utsotc;
+	}
+
+	#ev_5 {
+		grid-area: marx;
+	}
+
+	#ev_6 {
+		grid-area: oldleft;
+	}
+
+	#ev_7 {
+		grid-area: avtMarx;
+	}
+
+	#ev_8 {
+		grid-area: gegel;
+	}
+
+	#ev_9 {
+		grid-area: anarh;
+	}
+
+	#ev_10 {
+		grid-area: fabian;
+	}
+
+	#ev_11 {
+		grid-area: revision;
+	}
+
+	#ev_12 {
+		grid-area: dotchfil;
+	}
+
+	#ev_13 {
+		grid-area: lifefil;
+	}
+
+	#ev_14 {
+		grid-area: evolut;
+	}
+
+	#ev_15 {
+		grid-area: teologic;
+	}
+
+	#ev_16 {
+		grid-area: existents;
+	}
+
+	#ev_17 {
+		grid-area: evangelizm;
+	}
+
+	#ev_18 {
+		grid-area: psiho;
+	}
+
+	#ev_19 {
+		grid-area: neomarx;
+	}
+
+	#ev_20 {
+		grid-area: newleft;
+	}
+
+	#ev_21 {
+		grid-area: postfil;
+	}
+
+}
+
+@media (max-width: 639px) {
+	.l_page .lrp-inner {
+		width: calc(100% - 40px);
+		margin: auto;
+	}
+	.l_title {
+		width: auto;
+		font-size: 38px;
+		line-height: 1.2;
+	}
+	.evolution_title, .fingers_title, .ideas_title {
+		font-size: 20px;
+		width: auto;
+	}
+	.l_grid {
+		width: 270px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.l_grid_item:nth-child(n) {
+		background-image: url("../images/icons/social_vs_christian.png") !important;
+	}
+	.l_grid_item:nth-child(2),
+	.l_grid_item:nth-child(4),
+	.l_grid_item:nth-child(6),
+	.l_grid_item:nth-child(7),
+	.l_grid_item:nth-child(10),
+	.l_grid_item:nth-child(12),
+	.l_grid_item:nth-child(14),
+	.l_grid_item:nth-child(16) {
+		background-color: #00C853;
+		background-image: url("../images/icons/social_vs_christian_mono.png");
+	}
+
+	.l_finger_img {
+		width: 312px;
+		height: 360px;
+	}
+	.l_finger_img svg {
+		width: 312px;
+		height: 360px;
+		margin: auto;
+	}
+
+	.l_finger_btn {
+		position: absolute;
+		background: transparent;
+		border: none;
+		border-radius: 20px;
+		width: 100px;
+		height: 30px;
+	}
+	.l_finger_btn span {
+		display: flex;
+	}
+	.l_finger_btn_1 {
+		top: 78px;
+		left: 23px;
+		transform: rotate(71deg);
+	}
+	.l_finger_btn_1 span {
+		transform:  translate(-50%, -50%) rotate(-71deg);
+	}
+	.l_finger_btn_2 {
+		top: 51px;
+		left: 55px;
+		height: 40px;
+		width: 110px;
+		transform: rotate(79deg);
+	}
+	.l_finger_btn_2 span {
+		transform:  translate(-50%, -50%) rotate(-79deg);
+	}
+	.l_finger_btn_3 {
+		top: 42px;
+		left: 105px;
+		height: 48px;
+		width: 114px;
+		transform: rotate(91deg);
+	}
+	.l_finger_btn_3 span {
+		transform:  translate(-50%, -50%) rotate(-91deg);
+	}
+	.l_finger_btn_4 {
+		top: 42px;
+		left: 167px;
+		height: 50px;
+		width: 105px;
+		transform: rotate(105deg);
+	}
+	.l_finger_btn_4 span {
+		transform:  translate(-50%, -50%) rotate(-105deg);
+	}
+	.l_finger_btn_5 {
+		top: 75px;
+		left: 157px;
+		height: 55px;
+		width: 110px;
+		transform: rotate(-23deg);
+	}
+	.l_finger_btn_5 span {
+		transform:  translate(-50%, -50%) rotate(23deg);
+	}
+	.l_finger_btn:hover  span {
+		width: 160px;
+		height: 100px;
+		font-size: 18px;
+		line-height: 1.3;
+	}
+	.l_main_subtitle {
+		font-size: 20px;
+		padding-bottom: 18px;
+		margin-bottom: 20px !important;
+	}
+	.lr-intro .intro-content .l_main_title {
+		font-size: 36px;
+	}
+
+}
+@media (max-width: 450px) {
+	.l_side-title {
+		width: initial;
+		height: initial;
+		text-align: center;
+	}
+	.l_page .lr-headsofstate-list .country .country-content .cc-side .side-heads .head:nth-child(n) {
+		margin: 0 auto 20px;
+		flex-basis: 100%;
+		width: 100%;
+		max-width: inherit;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.l_page .lr-analysis:before {
+		content: none;
+	}
+	.l_title--ss {
+		font-size: 25px;
+		line-height: 1.2;
+	}
+	.l_title {
+		font-size: 32px;
+	}
+}

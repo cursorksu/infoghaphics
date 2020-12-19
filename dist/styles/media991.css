@@ -1,0 +1,187 @@
+@media (max-width: 1519px) {
+	.l_title--ss {
+		width: auto;
+		font-size: 23px;
+		line-height: 1.6;
+	}
+	.l_evolution,
+	.l_fingers,
+	.l_representatives_list {
+		padding: 80px 0;
+	}
+	.l_page .lr-container {
+		padding: 0 80px;
+	}
+	.l_page .lr-analysis:before {
+		left: 30%;
+	}
+}
+
+@media (max-width: 1360px) {
+	.l_page .lr-container {
+		width: 1000px;
+	}
+	.l_fingers {
+		padding: 80px 0;
+	}
+	.l_grid {
+		width: 840px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.arrow_around_8 {
+		width: 107%;
+	}
+	.arrow_around_3 {
+		width: 462px;
+	}
+	.arrow_around_4 {
+		width: 63px;
+	}
+}
+@media (max-width: 1200px) {
+	.l_page .lrp-inner::after {
+		bottom: 0;
+		height: 110px;
+	}
+	.evolution_text, .fingers_text, .ideas_text {
+		max-height: 230px;
+	}
+	.gradient_bg {
+		padding: 80px 80px 130px;
+	}
+	.l_representatives_list,
+	.l_page .lr-container {
+		width: 100%;
+	}
+	.l_representatives_list:before {
+		height: 50px;
+	}
+
+	.l_grid_item {
+		background-image: url("../images/icons/social_vs_christian_mono.png");
+	}
+	.l_grid_item:nth-child(2),
+	.l_grid_item:nth-child(4),
+	.l_grid_item:nth-child(6),
+	.l_grid_item:nth-child(8),
+	.l_grid_item:nth-child(10),
+	.l_grid_item:nth-child(12),
+	.l_grid_item:nth-child(14),
+	.l_grid_item:nth-child(16) {
+		background-image: url("../images/icons/social_vs_christian.png");
+	}
+	.l_page .lr-analysis:after {
+		right: -70px;
+	}
+
+	section {
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 991px) {
+	.arrow_around_3 {
+		width: 258%;
+	}
+	.arrow_around_8 {
+		width: 109%;
+	}
+	.arrow_around_2 {
+		width: 64px;
+	}
+	.arrow_around_1 {
+		width: 40px;
+	}
+	.l_representatives_list .l_title {
+		margin-bottom: 40px;
+	}
+	.l_side-title{
+		padding-top: 30px;
+	}
+	.l_representatives_list:before {
+		height: 30px;
+		left: 40%;
+		right: initial;
+	}
+	.l_page .lr-headsofstate-list .country .country-content .cc-left {
+		padding-right: 0;
+		padding-bottom: 80px;
+	}
+	.l_page .lr-headsofstate-list .country .country-content .cc-right {
+		border-left: none;
+		padding-bottom: 80px;
+		padding-left: 0;
+	}
+	.l_fist_text {
+		font-size: 18px;
+	}
+	.l_main_subtitle {
+		font-size: 26px;
+		padding-bottom: 20px;
+		margin-bottom: 28px;
+	}
+	.l_page .lr-analysis:before {
+		height: 30px;
+	}
+	.l_page .lr-analysis:after {
+		content: none;
+	}
+	.l_main_title {
+		font-size: 50px;
+	}
+	.l_fingers {
+		padding: 50px 0;
+	}
+	.l_fingers .lr-container  {
+		padding: 0 20px;
+	}
+	.l_page .lr-container {
+		padding: 0 20px;
+	}
+	.l_page .lrp-inner {
+		width: 70%;
+		margin: auto;
+		padding: 70px 30px;
+	}
+	.l_page .lrp-inner .lrp-content {
+		width: 100%;
+		max-width: initial;
+	}
+	.evolution_title, .fingers_title, .ideas_title {
+		font-size: 20px;
+		width: auto;
+	}
+
+	.l_grid {
+		width: 610px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.l_grid_item:nth-child(4),
+	.l_grid_item {
+		background-image: url("../images/icons/social_vs_christian_mono.png");
+
+	}
+	.l_grid_item:nth-child(2),
+	.l_grid_item:nth-child(3),
+	.l_grid_item:nth-child(6),
+	.l_grid_item:nth-child(7),
+	.l_grid_item:nth-child(10),
+	.l_grid_item:nth-child(11),
+	.l_grid_item:nth-child(14),
+	.l_grid_item:nth-child(15) {
+		background-image: url("../images/icons/social_vs_christian.png");
+	}
+	.l_ideas {
+		padding: 50px 0;
+	}
+	.gradient_bg {
+		padding: 50px 20px;
+	}
+	.l_page .lr-white h2 {
+		margin-bottom: 26px;
+	}
+	.l_text p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
